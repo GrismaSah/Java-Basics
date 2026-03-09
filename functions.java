@@ -88,27 +88,27 @@ public class functions {
     }
 
     public static void main(String args[]) {
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("enter the number");
-        // int a = sc.nextInt();
-        // System.out.println("enter the second number");
-        // int b = sc.nextInt();
-        // int result = multiply(a, b);
-        // System.out.println(result);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the number");
+        int a = sc.nextInt();
+        System.out.println("enter the second number");
+        int b = sc.nextInt();
+        int result = multiply(a, b);
+        System.out.println(result);
 
-        // int result = factorial(4);
-        // System.out.println(result);
+        int result = factorial(4);
+        System.out.println(result);
 
-        // System.out.println(binCoeff(5, 2));
+        System.out.println(binCoeff(5, 2));
 
-        // System.out.println(sum(4, 5));
-        // System.out.println(sum(4.5f, 5.5f));
+        System.out.println(sum(4, 5));
+        System.out.println(sum(4.5f, 5.5f));
 
-        // System.out.println(isprime(5));
+        System.out.println(isprime(5));
 
-        // primeInRange(20);
+        primeInRange(20);
 
-        // binToDec(101);
+        binToDec(101);
 
         decToBin(11);
 
